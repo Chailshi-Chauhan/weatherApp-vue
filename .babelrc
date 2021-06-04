@@ -1,0 +1,13 @@
+{
+  "presets": [
+      "@babel/preset-env", 
+      "@babel/preset-react",
+    ["env", { "modules": false }],
+    "stage-3"
+  ],
+  "plugins": [
+
+    "@babel/proposal-class-properties"
+
+  ]
+}
